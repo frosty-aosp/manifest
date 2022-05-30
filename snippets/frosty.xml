@@ -46,5 +46,7 @@
     <project path="packages/modules/Wifi" name="frosty-aosp/packages_modules_Wifi" remote="frosty" groups="lineage" />
     <project path="system/core" name="frosty-aosp/system_core" remote="frosty" groups="aicp" />
     <project path="system/sepolicy" name="frosty-aosp/system_sepolicy" remote="frosty" groups="lineage" />
-    <project path="vendor/frosty" name="frosty-aosp/vendor_frosty" remote="frosty" groups="aicp" />
+    <project path="vendor/frosty" name="frosty-aosp/vendor_frosty" remote="frosty" groups="aicp">
+      <linkfile src="config" dest="vendor/lineage/config" />
+    </project>
 </manifest>
