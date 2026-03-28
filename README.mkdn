@@ -1,4 +1,4 @@
-[Android Ice Cold Project](http://aicp-rom.com)
+[Frosty](https://frosty.mobile)
 ====================================
 
 
@@ -12,7 +12,7 @@ Initializing Repository
 
 Repo initialization:
 
-    $ repo init -u https://github.com/AICP/platform_manifest.git -b w16.2 --git-lfs
+    $ repo init -u https://github.com/frosty-aosp/manifest.git -b ananas --git-lfs
 
 
 sync repo :
@@ -41,7 +41,7 @@ Some info on how to customize your sync:
 
 Smallest/fastest sync:
 
-    $ repo sync --no-tags --no-clone-bundle
+    $ repo sync -j4 --no-tags --no-clone-bundle
 
     Note: we already define -c in our default.xml, so no need to add it
 
@@ -53,13 +53,8 @@ Building
 After the sync is finished, please read the [instructions from the Android site](https://source.android.com/source/building.html) on how to build.
 
     . build/envsetup.sh
-    brunch
-
-
-You can also build (and see how long it took) for specific devices like this:
-
-    . build/envsetup.sh
-    time brunch angler
+    breakfast codename
+    m bacon -j16
 
 Remember to `make clobber` every now and then!
 
