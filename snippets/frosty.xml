@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="build/make" name="frosty-aosp/build_make" groups="pdk,sysui-studio" remote="github" revision="ananas">
+    <project path="build/make" name="frosty-aosp/build_make" groups="pdk,sysui-studio" revision="ananas">
         <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
         <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
         <linkfile dest="build/core" src="core" />
@@ -8,17 +8,17 @@
         <linkfile dest="build/target" src="target" />
         <linkfile dest="build/tools" src="tools" />
     </project>
-    <project path="build/soong" name="frosty-aosp/build_soong" groups="pdk,tradefed" remote="github" revision="ananas" >
+    <project path="build/soong" name="frosty-aosp/build_soong" groups="pdk,tradefed" revision="ananas" >
         <linkfile dest="Android.bp" src="root.bp" />
         <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
     </project>
-    <project path="frameworks/base" name="frosty-aosp/frameworks_base" remote="github" revision="ananas" />
-    <project path="frosty-manifest" name="frosty-aosp/manifest" remote="github" revision="ananas" />
-    <project path="packages/apps/Launcher3" name="frosty-aosp/packages_apps_Launcher3" remote="github" revision="ananas" />
-    <project path="packages/apps/LockClock" name="frosty-aosp/packages_apps_LockClock" remote="github" revision="ananas" />
-    <project path="packages/apps/Settings" name="frosty-aosp/packages_apps_Settings" remote="github" revision="ananas" />
-    <project path="packages/overlays/Frosty" name="frosty-aosp/packages_overlays_Frosty" remote="github" revision="ananas" />
-    <project path="packages/inputmethods/LatinIME" name="frosty-aosp/packages_inputmethods_LatinIME" remote="github" revision="ananas" />
-    <project path="packages/modules/Connectivity" name="frosty-aosp/packages_modules_Connectivity" remote="github" revision="ananas" />
-    <project path="vendor/aicp" name="frosty-aosp/vendor_frosty" remote="github" revision="ananas" />
+    <project path="frameworks/base" name="frosty-aosp/frameworks_base" revision="ananas" />
+    <project path="frosty-manifest" name="frosty-aosp/manifest" revision="ananas" />
+    <project path="packages/apps/Launcher3" name="frosty-aosp/packages_apps_Launcher3" revision="ananas" />
+    <project path="packages/apps/LockClock" name="frosty-aosp/packages_apps_LockClock" revision="ananas" />
+    <project path="packages/apps/Settings" name="frosty-aosp/packages_apps_Settings" revision="ananas" />
+    <project path="packages/overlays/Frosty" name="frosty-aosp/packages_overlays_Frosty" revision="ananas" />
+    <project path="packages/inputmethods/LatinIME" name="frosty-aosp/packages_inputmethods_LatinIME" revision="ananas" />
+    <project path="packages/modules/Connectivity" name="frosty-aosp/packages_modules_Connectivity" revision="ananas" />
+    <project path="vendor/aicp" name="frosty-aosp/vendor_frosty" revision="ananas" />
 </manifest>
