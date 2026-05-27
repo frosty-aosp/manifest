@@ -12,7 +12,6 @@
         <linkfile dest="Android.bp" src="root.bp" />
         <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
     </project>
-    <project path="device/frosty/sepolicy" name="frosty-aosp/device_frosty_sepolicy" remote="github" revision="ananas" />
     <project path="frameworks/base" name="frosty-aosp/frameworks_base" remote="github" revision="ananas" />
     <project path="frosty-manifest" name="frosty-aosp/manifest" remote="github" revision="ananas" />
     <project path="packages/apps/Launcher3" name="frosty-aosp/packages_apps_Launcher3" remote="github" revision="ananas" />
@@ -21,5 +20,5 @@
     <project path="packages/overlays/Frosty" name="frosty-aosp/packages_overlays_Frosty" remote="github" revision="ananas" />
     <project path="packages/inputmethods/LatinIME" name="frosty-aosp/packages_inputmethods_LatinIME" remote="github" revision="ananas" />
     <project path="packages/modules/Connectivity" name="frosty-aosp/packages_modules_Connectivity" remote="github" revision="ananas" />
-    <project path="vendor/frosty" name="frosty-aosp/vendor_frosty" remote="github" revision="ananas" />
+    <project path="vendor/aicp" name="frosty-aosp/vendor_frosty" remote="github" revision="ananas" />
 </manifest>
