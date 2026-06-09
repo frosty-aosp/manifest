@@ -49,7 +49,7 @@
   <project path="packages/resources/deviceparts" name="AICP/packages_resources_deviceparts" remote="aicp" />
   <project path="packages/resources/devicesettings" name="AICP/packages_resources_devicesettings" remote="aicp" />
   <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />
-  <project path="prebuilts/tools-aicp" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />
+  <project path="prebuilts/tools-frosty" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />
   <!--<project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />-->
 
   <!-- AICP platform -->
