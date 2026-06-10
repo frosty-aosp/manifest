@@ -12,13 +12,16 @@
         <linkfile dest="Android.bp" src="root.bp" />
         <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
     </project>
+    <project path="device/frosty/sepolicy" name="frosty-aosp/device_frosty_sepolicy" revision="ananas" />
     <project path="frameworks/base" name="frosty-aosp/frameworks_base" revision="ananas" />
     <project path="frosty-manifest" name="frosty-aosp/manifest" revision="ananas" />
     <project path="packages/apps/Launcher3" name="frosty-aosp/packages_apps_Launcher3" revision="ananas" />
     <project path="packages/apps/LockClock" name="frosty-aosp/packages_apps_LockClock" revision="ananas" />
+    <project path="packages/apps/SetupWizard" name="frosty-aosp/packages_apps_SetupWizard" revision="ananas" />
     <project path="packages/apps/Settings" name="frosty-aosp/packages_apps_Settings" revision="ananas" />
     <project path="packages/overlays/Frosty" name="frosty-aosp/packages_overlays_Frosty" revision="ananas" />
     <project path="packages/inputmethods/LatinIME" name="frosty-aosp/packages_inputmethods_LatinIME" revision="ananas" />
     <project path="packages/modules/Connectivity" name="frosty-aosp/packages_modules_Connectivity" revision="ananas" />
-    <project path="vendor/aicp" name="frosty-aosp/vendor_frosty" revision="ananas" />
+    <project path="packages/services/OmniJaws" name="frosty-aosp/packages_services_OmniJaws" revision="ananas" />
+    <project path="vendor/frosty" name="frosty-aosp/vendor_frosty" revision="ananas" />
 </manifest>
