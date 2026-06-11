@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remote name="frosty-devices"
+          fetch="https://github.com/frosty-devices"
+          revision="ananas" />
+
     <project path="build/make" name="frosty-aosp/build_make" groups="pdk,sysui-studio" revision="ananas">
         <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
         <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
