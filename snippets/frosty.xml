@@ -16,6 +16,7 @@
         <linkfile dest="Android.bp" src="root.bp" />
         <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
     </project>
+    <project path="bootable/recovery" name="frosty-aosp/bootable_recovery" remote="frosty" />
     <project path="device/frosty/sepolicy" name="frosty-aosp/device_frosty_sepolicy" remote="frosty" />
     <project path="frameworks/base" name="frosty-aosp/frameworks_base" remote="frosty" />
     <project path="frosty-manifest" name="frosty-aosp/manifest" remote="frosty" />
