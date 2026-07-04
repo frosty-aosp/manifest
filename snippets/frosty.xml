@@ -20,6 +20,7 @@
     <project path="device/frosty/sepolicy" name="frosty-aosp/device_frosty_sepolicy" remote="frosty" />
     <project path="frameworks/base" name="frosty-aosp/frameworks_base" remote="frosty" />
     <project path="frosty-manifest" name="frosty-aosp/manifest" remote="frosty" />
+    <project path="packages/apps/Backgrounds" name="frosty-aosp/packages_apps_Backgrounds" remote="frosty" />
     <project path="packages/apps/Launcher3" name="frosty-aosp/packages_apps_Launcher3" remote="frosty" />
     <project path="packages/apps/LockClock" name="frosty-aosp/packages_apps_LockClock" remote="frosty" />
     <project path="packages/apps/SetupWizard" name="frosty-aosp/packages_apps_SetupWizard" remote="frosty" />
