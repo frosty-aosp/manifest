@@ -2,15 +2,25 @@
 <manifest>
   <!-- remove lineage platform -->
   <remove-project name="LineageOS/android" />
+  <remove-project name="LineageOS/android_bionic" />
   <remove-project name="LineageOS/android_build" />
   <remove-project name="LineageOS/android_build_soong" />
   <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <remove-project name="LineageOS/android_frameworks_opt_telephony" />
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
   <remove-project name="LineageOS/android_packages_apps_Launcher3" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
+  <remove-project name="LineageOS/android_packages_modules_Bluetooth" />
+  <remove-project name="LineageOS/android_packages_modules_Nfc" />
+  <remove-project name="LineageOS/android_packages_modules_Permission" />
+  <remove-project name="LineageOS/android_packages_modules_Wifi" />
+  <remove-project name="LineageOS/android_packages_providers_DownloadProvider" />
+  <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
   <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="LineageOS/android_system_sepolicy" />
 
   <!-- remove lineage non-platform -->
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
@@ -24,5 +34,12 @@
   <remove-project name="LineageOS/scripts" />
 
   <!-- remove aosp platform -->
+  <remove-project name="platform/art" />
+  <remove-project name="platform/libcore" />
+  <remove-project name="platform/packages/modules/AppSearch" />
+  <remove-project name="platform/packages/modules/ConfigInfrastructure" />
   <remove-project name="platform/packages/modules/DnsResolver" />
+  <remove-project name="platform/packages/modules/StatsD" />
+  <remove-project name="platform/system/tools/aidl" />
+  <remove-project name="platform/tools/metalava" />
 </manifest>

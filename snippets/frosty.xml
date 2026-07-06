@@ -4,6 +4,7 @@
           fetch="https://github.com/"
           revision="ananas" />
 
+    <project path="art" name="frosty-aosp/art" remote="frosty" />
     <project path="build/make" name="frosty-aosp/build_make" groups="pdk,sysui-studio" remote="frosty">
         <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
         <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
@@ -16,10 +17,14 @@
         <linkfile dest="Android.bp" src="root.bp" />
         <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
     </project>
+    <project path="bionic" name="frosty-aosp/bionic" remote="frosty" />
     <project path="bootable/recovery" name="frosty-aosp/bootable_recovery" remote="frosty" />
     <project path="device/frosty/sepolicy" name="frosty-aosp/device_frosty_sepolicy" remote="frosty" />
     <project path="frameworks/base" name="frosty-aosp/frameworks_base" remote="frosty" />
+    <project path="frameworks/native" name="frosty-aosp/frameworks_native" remote="frosty" />
+    <project path="frameworks/opt/telephony" name="frosty-aosp/frameworks_opt_telephony" remote="frosty" />
     <project path="frosty-manifest" name="frosty-aosp/manifest" remote="frosty" />
+    <project path="libcore" name="frosty-aosp/libcore" remote="frosty" />
     <project path="packages/apps/Backgrounds" name="frosty-aosp/packages_apps_Backgrounds" remote="frosty" />
     <project path="packages/apps/Launcher3" name="frosty-aosp/packages_apps_Launcher3" remote="frosty" />
     <project path="packages/apps/LockClock" name="frosty-aosp/packages_apps_LockClock" remote="frosty" />
@@ -27,7 +32,20 @@
     <project path="packages/apps/Settings" name="frosty-aosp/packages_apps_Settings" remote="frosty" />
     <project path="packages/overlays/Frosty" name="frosty-aosp/packages_overlays_Frosty" remote="frosty" />
     <project path="packages/inputmethods/LatinIME" name="frosty-aosp/packages_inputmethods_LatinIME" remote="frosty" />
+    <project path="packages/modules/AppSearch" name="frosty-aosp/packages_modules_AppSearch" remote="frosty" />
+    <project path="packages/modules/Bluetooth" name="frosty-aosp/packages_modules_Bluetooth" remote="frosty" />
+    <project path="packages/modules/ConfigInfrastructure" name="frosty-aosp/packages_modules_ConfigInfrastructure" remote="frosty" />
     <project path="packages/modules/Connectivity" name="frosty-aosp/packages_modules_Connectivity" remote="frosty" />
+    <project path="packages/modules/Nfc" name="frosty-aosp/packages_modules_Nfc" remote="frosty" />
+    <project path="packages/modules/Permission" name="frosty-aosp/packages_modules_Permission" remote="frosty" />
+    <project path="packages/modules/StatsD" name="frosty-aosp/packages_modules_StatsD" remote="frosty" />
+    <project path="packages/providers/DownloadProvider" name="frosty-aosp/packages_providers_DownloadProvider" remote="frosty" />
+    <project path="packages/providers/TelephonyProvider" name="frosty-aosp/packages_providers_TelephonyProvider" remote="frosty" />
     <project path="packages/services/OmniJaws" name="frosty-aosp/packages_services_OmniJaws" remote="frosty" />
+    <project path="packages/modules/Wifi" name="frosty-aosp/packages_modules_Wifi" remote="frosty" />
+    <project path="system/core" name="frosty-aosp/system_core" remote="frosty" />
+    <project path="system/sepolicy" name="frosty-aosp/system_sepolicy" remote="frosty" />
+    <project path="system/tools/aidl" name="frosty-aosp/system_tools_aidl" remote="frosty" />
+    <project path="tools/metalava" name="frosty-aosp/tools_metalava" remote="frosty" />
     <project path="vendor/frosty" name="frosty-aosp/vendor_frosty" remote="frosty" />
 </manifest>
