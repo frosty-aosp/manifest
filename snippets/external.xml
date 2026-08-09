@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="XOS"
-          fetch="https://git.halogenos.org"
+          fetch="https://github.com/"
           revision="refs/heads/XOS-16.2" />
 
   <project path="external/AppCompatConfig" name="halogenOS/android_external_AppCompatConfig" remote="XOS" />
