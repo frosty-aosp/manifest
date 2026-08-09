@@ -5,7 +5,7 @@
           revision="ananas" />
 
     <project path="art" name="frosty-aosp/art" remote="frosty" />
-    <project path="build/make" name="frosty-aosp/build_make" groups="pdk,sysui-studio" remote="frosty">
+    <project path="build/make" name="frosty-aosp/build_make" remote="frosty">
         <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
         <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
         <linkfile dest="build/core" src="core" />
@@ -13,7 +13,7 @@
         <linkfile dest="build/target" src="target" />
         <linkfile dest="build/tools" src="tools" />
     </project>
-    <project path="build/soong" name="frosty-aosp/build_soong" groups="pdk,tradefed" remote="frosty" >
+    <project path="build/soong" name="frosty-aosp/build_soong" remote="frosty" >
         <linkfile dest="Android.bp" src="root.bp" />
         <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
     </project>
