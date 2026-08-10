@@ -25,6 +25,7 @@
     <project path="frameworks/opt/telephony" name="frosty-aosp/frameworks_opt_telephony" remote="frosty" />
     <project path="frosty-manifest" name="frosty-aosp/manifest" remote="frosty" />
     <project path="libcore" name="frosty-aosp/libcore" remote="frosty" />
+    <project path="packages/apps/AicpExtras" name="frosty-aosp/packages_apps_AicpExtras" remote="frosty" />
     <project path="packages/apps/Backgrounds" name="frosty-aosp/packages_apps_Backgrounds" remote="frosty" />
     <project path="packages/apps/Launcher3" name="frosty-aosp/packages_apps_Launcher3" remote="frosty" />
     <project path="packages/apps/LockClock" name="frosty-aosp/packages_apps_LockClock" remote="frosty" />
