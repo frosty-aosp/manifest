@@ -38,6 +38,7 @@
     <project path="packages/modules/ConfigInfrastructure" name="frosty-aosp/packages_modules_ConfigInfrastructure" remote="frosty" />
     <project path="packages/modules/Connectivity" name="frosty-aosp/packages_modules_Connectivity" remote="frosty" />
     <project path="packages/modules/Nfc" name="frosty-aosp/packages_modules_Nfc" remote="frosty" />
+    <project path="packages/modules/microG" name="frosty-aosp/packages_modules_microG" remote="frosty" />
     <project path="packages/modules/Permission" name="frosty-aosp/packages_modules_Permission" remote="frosty" />
     <project path="packages/modules/StatsD" name="frosty-aosp/packages_modules_StatsD" remote="frosty" />
     <project path="packages/providers/DownloadProvider" name="frosty-aosp/packages_providers_DownloadProvider" remote="frosty" />
