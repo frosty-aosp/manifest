@@ -17,7 +17,6 @@
   <remove-project name="LineageOS/android_packages_modules_Bluetooth" />
   <remove-project name="LineageOS/android_packages_modules_Nfc" />
   <remove-project name="LineageOS/android_packages_modules_Permission" />
-  <remove-project name="LineageOS/android_packages_modules_common" />
   <remove-project name="LineageOS/android_packages_modules_Wifi" />
   <remove-project name="LineageOS/android_packages_providers_DownloadProvider" />
   <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
