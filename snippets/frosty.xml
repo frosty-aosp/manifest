@@ -21,6 +21,7 @@
     <project path="bootable/recovery" name="frosty-aosp/bootable_recovery" remote="frosty" />
     <project path="device/frosty/sepolicy" name="frosty-aosp/device_frosty_sepolicy" remote="frosty" />
     <project path="frameworks/base" name="frosty-aosp/frameworks_base" remote="frosty" />
+    <project path="frameworks/libs/systemui" name="frosty-aosp/frameworks_libs_systemui" remote="frosty" />
     <project path="frameworks/native" name="frosty-aosp/frameworks_native" remote="frosty" />
     <project path="frameworks/opt/telephony" name="frosty-aosp/frameworks_opt_telephony" remote="frosty" />
     <project path="frosty-manifest" name="frosty-aosp/manifest" remote="frosty" />

@@ -8,6 +8,7 @@
   <project path="external/GmsCompatConfig" name="halogenOS/android_external_GmsCompatConfig" remote="XOS" />
   <project path="packages/apps/AppCompatConfig" name="halogenOS/android_packages_apps_AppCompatConfig" remote="XOS" />
   <project path="packages/apps/GmsCompat" name="halogenOS/android_packages_apps_GmsCompat" remote="XOS" />
+  <project path="packages/apps/LMOFreeform" name="crdroidandroid/android_packages_apps_LMOFreeform" revision="16.0" />
 
   <project path="prebuilts/build-tools" name="halogenOS/android_prebuilts_build-tools" remote="XOS" />
 </manifest>
