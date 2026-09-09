@@ -2,6 +2,7 @@
 <manifest>
   <!-- remove lineage platform -->
   <remove-project name="LineageOS/android" />
+  <remove-project name="LineageOS/android_art" />
   <remove-project name="LineageOS/android_bionic" />
   <remove-project name="LineageOS/android_build" />
   <remove-project name="LineageOS/android_build_soong" />
@@ -35,7 +36,6 @@
   <remove-project name="LineageOS/scripts" />
 
   <!-- remove aosp platform -->
-  <remove-project name="platform/art" />
   <remove-project name="platform/libcore" />
   <remove-project name="platform/packages/modules/AppSearch" />
   <remove-project name="platform/packages/modules/ConfigInfrastructure" />
