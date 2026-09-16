@@ -30,7 +30,6 @@
     <project path="packages/apps/AicpExtras" name="frosty-aosp/packages_apps_AicpExtras" remote="frosty" groups="aicp" />
     <project path="packages/apps/Backgrounds" name="frosty-aosp/packages_apps_Backgrounds" remote="frosty" groups="lineage" />
     <project path="packages/apps/Launcher3" name="frosty-aosp/packages_apps_Launcher3" remote="frosty" groups="lineage" />
-    <project path="packages/apps/LockClock" name="frosty-aosp/packages_apps_LockClock" remote="frosty" />
     <project path="packages/apps/SetupWizard" name="frosty-aosp/packages_apps_SetupWizard" remote="frosty" groups="lineage" />
     <project path="packages/apps/Settings" name="frosty-aosp/packages_apps_Settings" remote="frosty" groups="aicp" />
     <project path="packages/overlays/Frosty" name="frosty-aosp/packages_overlays_Frosty" remote="frosty" groups="aicp" />
