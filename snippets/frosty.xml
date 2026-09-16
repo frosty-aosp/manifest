@@ -36,20 +36,15 @@
     <project path="packages/overlays/Frosty" name="frosty-aosp/packages_overlays_Frosty" remote="frosty" groups="aicp" />
     <project path="packages/overlays/Lineage" name="frosty-aosp/packages_overlays_Lineage" remote="frosty" groups="aicp" />
     <project path="packages/inputmethods/LatinIME" name="frosty-aosp/packages_inputmethods_LatinIME" remote="frosty" groups="lineage" />
-    <project path="packages/modules/AppSearch" name="frosty-aosp/packages_modules_AppSearch" remote="frosty" />
     <project path="packages/modules/Bluetooth" name="frosty-aosp/packages_modules_Bluetooth" remote="frosty" groups="lineage" />
-    <project path="packages/modules/ConfigInfrastructure" name="frosty-aosp/packages_modules_ConfigInfrastructure" remote="frosty" />
     <project path="packages/modules/Connectivity" name="frosty-aosp/packages_modules_Connectivity" remote="frosty" groups="lineage" />
     <project path="packages/modules/Nfc" name="frosty-aosp/packages_modules_Nfc" remote="frosty" groups="lineage" />
     <project path="packages/modules/Permission" name="frosty-aosp/packages_modules_Permission" remote="frosty" groups="lineage" />
-    <project path="packages/modules/StatsD" name="frosty-aosp/packages_modules_StatsD" remote="frosty" />
     <project path="packages/providers/DownloadProvider" name="frosty-aosp/packages_providers_DownloadProvider" remote="frosty" groups="lineage" />
     <project path="packages/providers/TelephonyProvider" name="frosty-aosp/packages_providers_TelephonyProvider" remote="frosty" groups="lineage" />
     <project path="packages/services/OmniJaws" name="frosty-aosp/packages_services_OmniJaws" remote="frosty" groups="aicp" />
     <project path="packages/modules/Wifi" name="frosty-aosp/packages_modules_Wifi" remote="frosty" groups="lineage" />
     <project path="system/core" name="frosty-aosp/system_core" remote="frosty" groups="aicp" />
     <project path="system/sepolicy" name="frosty-aosp/system_sepolicy" remote="frosty" groups="lineage" />
-    <project path="system/tools/aidl" name="frosty-aosp/system_tools_aidl" remote="frosty" />
-    <project path="tools/metalava" name="frosty-aosp/tools_metalava" remote="frosty" />
     <project path="vendor/frosty" name="frosty-aosp/vendor_frosty" remote="frosty" groups="aicp" />
 </manifest>
