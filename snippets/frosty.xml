@@ -20,6 +20,9 @@
     <project path="bionic" name="frosty-aosp/bionic" remote="frosty" groups="lineage" />
     <project path="bootable/recovery" name="frosty-aosp/bootable_recovery" remote="frosty" groups="lineage" />
     <project path="device/frosty/sepolicy" name="frosty-aosp/device_frosty_sepolicy" remote="frosty" groups="aicp" />
+    <project path="external/federated-compute" name="frosty-aosp/external_federated-compute" remote="frosty" />
+    <project path="external/flatbuffers" name="frosty-aosp/external_flatbuffers" remote="frosty" />
+    <project path="external/tensorflow" name="frosty-aosp/external_tensorflow" remote="frosty" />
     <project path="frameworks/base" name="frosty-aosp/frameworks_base" remote="frosty" groups="aicp" />
     <project path="frameworks/libs/systemui" name="frosty-aosp/frameworks_libs_systemui" remote="frosty" groups="lineage" />
     <project path="frameworks/native" name="frosty-aosp/frameworks_native" remote="frosty" groups="lineage" />

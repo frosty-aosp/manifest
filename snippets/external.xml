@@ -6,7 +6,9 @@
 
     <project path="external/AppCompatConfig" name="halogenOS/android_external_AppCompatConfig" remote="XOS" />
     <project path="external/GmsCompatConfig" name="halogenOS/android_external_GmsCompatConfig" remote="XOS" />
+    <project path="external/yifan" name="LMODroid/platform_external_yifan" revision="sixteen-qpr2" />
     <project path="packages/apps/AppCompatConfig" name="halogenOS/android_packages_apps_AppCompatConfig" remote="XOS" />
+    <project path="packages/apps/FaceUnlock" name="LMODroid/platform_packages_apps_FaceUnlock" revision="sixteen-qpr2" />
     <project path="packages/apps/GmsCompat" name="halogenOS/android_packages_apps_GmsCompat" remote="XOS" />
     <project path="packages/apps/LMOFreeform" name="crdroidandroid/android_packages_apps_LMOFreeform" revision="16.0" />
     <project path="packages/modules/AppSearch" name="halogenOS/android_packages_modules_AppSearch" remote="XOS" />

@@ -37,6 +37,9 @@
 
   <!-- remove aosp platform -->
   <remove-project name="platform/libcore" />
+  <remove-project name="platform/external/federated-compute" />
+  <remove-project name="platform/external/flatbuffers" />
+  <remove-project name="platform/external/tensorflow" />
   <remove-project name="platform/packages/modules/AppSearch" />
   <remove-project name="platform/packages/modules/ConfigInfrastructure" />
   <remove-project name="platform/packages/modules/DnsResolver" />
