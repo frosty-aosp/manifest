@@ -3,4 +3,5 @@
   <remote name="frosty" fetch="https://github.com" revision="bananas" />
   <remove-project name="LineageOS/android" />
   <project name="frosty-aosp/manifest" path="manifest" remote="frosty" groups="lineage" />
+  <project name="frosty-aosp/frosty_scripts" path="frosty/scripts" remote="frosty" />
 </manifest>
